@@ -16,7 +16,8 @@ ul {
     margin: 0;
     padding: 0;
     width: 10%;
-    background-color: rgba(120,170,200,0.5);
+    background-color: blue;
+    //background-color: rgba(120,170,200,0.5);
     height: 100%; /* Full height */
     position: fixed; /* Make it stick, even on scroll */
     overflow: auto; /* Enable scrolling if the sidenav has too much content */
@@ -24,7 +25,7 @@ ul {
 
 li a {
     display: block;
-    color: orange;
+    color: red;
     padding: 8px 16px;
     text-decoration: none;
 }
@@ -43,6 +44,6 @@ h1.headline {
 }
 
 @keyframes headline {
-    0% {left: 0px;}
-    100% {left: 500px;}
+    0% {left: 0px;color: red;}
+    100% {left: 500px; color: blue;}
 }
