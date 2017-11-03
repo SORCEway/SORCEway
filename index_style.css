@@ -2,26 +2,12 @@ body {
     background-image: url("background.png");
     background-color: red;
 }
-h1 {
-    color: blue;
-    font-family: verdana;
-}
 p {
     background-color: orange;
     color: green;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 10%;
-    background-color: blue;
-    //background-color: rgba(120,170,200,0.5);
-    height: 100%; /* Full height */
-    position: fixed; /* Make it stick, even on scroll */
-    overflow: auto; /* Enable scrolling if the sidenav has too much content */
-}
+
 
 li a {
     display: block;
@@ -33,17 +19,4 @@ li a {
 li a:hover {
     background-color: rgba(100,20,180,0.6);
     color: powderblue;
-}
-
-h1.headline {
-    position: relative;
-    animation-name: headline;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-
-@keyframes headline {
-    0% {left: 0px;color: red;}
-    100% {left: 500px; color: blue;}
 }
