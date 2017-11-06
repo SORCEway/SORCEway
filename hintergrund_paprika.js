@@ -47,7 +47,23 @@ function P_A_P_R_I_K_A(count) {
             freedom.x += freedom.speed * (1+freedom.angle);
             freedom.y += freedom.speed * (1-freedom.angle);
             if (freedom.x >= canvas.width+width || freedom.y >= canvas.height+height) {
-                delete freedoms[i]
+                // ACHTUNG TRIGGERWARNUNG
+                // FREIHEITSVERWEIGERNDER CODE
+                // ACHTUNG ACHTUNG ACHTUNG ACHTUNG OBACHT GEFAHR
+                // WEITERLESEN AUF EIGENE GEFAHR
+                // DIE ENTWICKLER VON SORCEWAY RESPEKTIEREN ALLE FREIHEITEN
+                // DIESER CODE IST **NICHT** ALS BILLIGUNG FÜR PROPRIETÄRE SOFTWARE ZU VERSTEHEN
+                //
+                //
+                //
+                //
+                delete freedoms[i] // STOP STOP STOP STOP STOP
+                //
+                //
+                //
+                //
+                // ENDE DER FREIHEITSVERWEIGERNDEN SEKTION
+                // DIE ENTWICKLER VON SORCEWAY ENTSCHULDIGEN SICH BEI IHNEN FÜR DIE ENTSTANDENEN UNANNEHMLICHKEITEN
             }
         }
 
