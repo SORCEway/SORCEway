@@ -1,3 +1,7 @@
+* {
+    cursor: url(___FREIHEIT___.png) 54 15, auto;
+}
+
 body {
     background-image: url("background.png");
     background-color: red;
