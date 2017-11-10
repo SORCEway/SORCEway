@@ -29,6 +29,67 @@
                 color: blue;
             }
         }
+
+        .blink {
+            animation: blink 1s steps(5, start) infinite;
+        }
+
+        @keyframes blink {
+            to {
+                visibility: hidden;
+            }
+        }
+
+        .gewonnen {
+            position: absolute;
+            bottom: 15px;
+            left: 50%;
+            width: 400px;
+            margin-left: -200px;
+            padding: 15px 30px;
+            background: #fff;
+            border: 5px dashed red;
+            animation: win 5s infinite ease, showAfter 1s forwards;
+
+            visibility: hidden;
+        }
+
+        .gewonnen a {
+            color: orange;
+        }
+
+        @keyframes win {
+            0% {
+                transform: scale(1.0) rotate(-1deg);
+                background: blue;
+                color: yellow;
+            }
+            25% {
+                transform: scale(1.25) rotate(1deg);
+            }
+            50% {
+                transform: scale(1.25) rotate(-1deg);
+                background: white;
+                color: red;
+            }
+            75% {
+                transform: scale(1.0) rotate(1deg);
+            }
+            100% {
+                transform: scale(1.0) rotate(-1deg);
+                background: blue;
+                color: yellow;
+            }
+        }
+        @keyframes showAfter {
+            99% {
+                visibility: hidden;
+            }
+            100% {
+                visibility: visible;
+            }
+        }
+
     </STYLE>
     <LINK REL='STYLESHEET' HREF='index_style.css' />
 </HEAD>
@@ -36,6 +97,10 @@
 <BODY>
     <H1 CLASS="headline">
         <FONT COLOR="blue">Willkommen bei SORCEway.de </H1>
+    <DIV CLASS="gewonnen">
+        Herzlichen GlÃ¼ckwunsch! Sie sind der <B>1000000.</B> Besucher dieser Webseite. Klicken Sie <A HREF="http://gewinnspiel.">HIER</A>, um Ihren Gewinn von <B>10000</B>â‚¬ zu erhalten.
+    </DIV>
+    </DIV>
     <SCRIPT SRC="hintergrund_paprika.js"></SCRIPT>
     <SCRIPT>
         P_A_P_R_I_K_A(100);
