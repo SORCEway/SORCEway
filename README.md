@@ -8,5 +8,6 @@ Da diese sehr gute Seite frei ist, kann man sie an vielen Orten bewundern:
 - [sorceway.chemtrail.airforce](https://sorceway.chemtrail.airforce/)
 - [sorceway.bergiu.tk](https://sorceway.bergiu.tk/)
 - [sorcewaylgmyy444.onion](http://sorcewaylgmyy444.onion)
+- [ipns://sorceway.chemtrail.airforce/index.htm](ipns://sorceway.chemtrail.airforce/index.htm), z.B. [https://ipfs.io/ipns/sorceway.chemtrail.airforce/index.htm](https://ipfs.io/ipns/sorceway.chemtrail.airforce/index.htm)
 
 Für Additionen bitte Zuganfragen erstellen.
