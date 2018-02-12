@@ -4,7 +4,7 @@
 
 Da diese sehr gute Seite frei ist, kann man sie an vielen Orten bewundern:
 
-- [sorceway.de](https://www.sorceway.de/) (aktuell nicht verfügbar)
+- [sorceway.de](https://www.sorceway.de/)
 - [sorceway.chemtrail.airforce](https://sorceway.chemtrail.airforce/)
 - [sorceway.bergiu.tk](http://sorceway.bergiu.tk/)
 - [sorcewaylgmyy444.onion](http://sorcewaylgmyy444.onion)
