@@ -1,0 +1,8 @@
+Also bei Apache muss man das so machen:
+$ a2enmod headers
+
+Und dann die beiden Zeilen am Ende der /etc/apache2/apache2.conf hinzufügen:
+ServerSignature Off
+ServerTokens Prod
+
+Und danach kann man die Beispieldatei apache.conf nutzen
