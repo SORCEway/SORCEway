@@ -11,5 +11,7 @@ Da diese sehr gute Seite frei ist, kann man sie an vielen Orten bewundern:
 - [sorceway.bartolomey.me](https://sorceway.bartolomey.me/)
 - [sorceway.occloxium.com](https://sorceway.occloxium.com/)
 - [sorceway.linus.space](https://sorceway.linus.space)
+- [sorceway.u1l.de](https://sorceway.u1l.de)
+- [asozialer.club/sorceway](https://asozialer.club/sorceway)
 
-Für Additionen bitte Zuganfragen erstellen.
+Für Additionen bitte Ziehanfragen erstellen.
